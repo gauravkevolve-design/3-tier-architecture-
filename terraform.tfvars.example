@@ -1,0 +1,8 @@
+aws_region     = "ap-south-1"
+ami_id         = "REPLACE_WITH_AMI_ID"
+key_name       = "REPLACE_WITH_EC2_KEY_PAIR"
+instance_type  = "t3.micro"
+docker_image   = "public.ecr.aws/docker/library/nginx:alpine"
+db_name        = "appdb"
+db_username    = "appadmin"
+db_password    = "CHANGE_ME"
